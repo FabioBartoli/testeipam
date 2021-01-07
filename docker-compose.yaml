@@ -12,7 +12,7 @@ services:
       - db_data:/var/lib/mysql
   ipam:
     depends_on:
-      - mysql
+      - mysql-ipam
     image: pierrecdn/phpipam
     environment:
       - MYSQL_ENV_MYSQL_USER=root
