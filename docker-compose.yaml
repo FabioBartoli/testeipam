@@ -17,7 +17,7 @@ services:
     environment:
       - MYSQL_ENV_MYSQL_USER=root
       - MYSQL_ENV_MYSQL_ROOT_PASSWORD=my-secret-pw
-      - MYSQL_ENV_MYSQL_HOST=mysql
+      - MYSQL_ENV_MYSQL_HOST=mysql-ipam
     ports:
       - "8123:80"
 volumes:
